@@ -5,6 +5,9 @@ That's it include underhood:
 
 Codestyle check by Spotless version 6.12
 
+#### API documentation 
+Documentation formed by Swagger UI and OpenAPI 3.0 and available by `http://server:port/swagger-ui.html`
+
 ### Reference Documentation
 For further reference, please consider the following sections:
 
