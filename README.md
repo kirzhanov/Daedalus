@@ -2,6 +2,7 @@
 This is just simple REST API backend application with some classical features.
 That's it include underhood:
 * PostgreSQL version 15.1
+* Liquibase based on YAML format version 4.17.2 as a database migration tool
 
 Codestyle check by Spotless version 6.12
 

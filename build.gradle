@@ -31,8 +31,12 @@ dependencies {
 	compileOnly 'org.projectlombok:lombok'
 	annotationProcessor 'org.projectlombok:lombok'
 
+	//liquibase
+	implementation 'org.liquibase:liquibase-core:4.17.2'
+
 	//devtools
 	developmentOnly 'org.springframework.boot:spring-boot-devtools'
+
 	runtimeOnly 'org.postgresql:postgresql'
 
 	//tests
