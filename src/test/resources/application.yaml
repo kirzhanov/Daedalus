@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: daedalus
+  profiles:
+    active: local
+  main:
+    banner-mode: OFF

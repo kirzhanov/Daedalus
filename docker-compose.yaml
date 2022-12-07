@@ -1,0 +1,15 @@
+version: '3'
+services:
+  db:
+    image: postgres:alpine
+    volumes:
+      - db-data:/var/lib/postgresql/webdata
+    ports:
+      - 5434:5434
+    environment:
+      POSTGRES_DB: daedalusdb
+      POSTGRES_USER: daedalususer
+      POSTGRES_PASSWORD: TestMeMyTest!1
+    command: -p 5434
+volumes:
+  db-data:
